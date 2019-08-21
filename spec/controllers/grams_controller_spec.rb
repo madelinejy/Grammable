@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe GramsController, type: :controller 
+RSpec.describe GramsController, type: :controller do
 	describe "grams#update action" do
 		it "should allow users to successfully update grams" do
 		  gram = FactoryBot.create(:gram, message: "Initial Value")
