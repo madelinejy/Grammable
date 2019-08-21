@@ -1,8 +1,9 @@
 require 'rails_helper'
 
 RSpec.describe GramsController, type: :controller do
+
 	describe "grams#destroy action" do
-	    it "should allow a user to destroy grams" 
+	    it "should allow a user to destroy grams" do
 	    	gram = FactoryBot.create(:gram)
 	    	delete :destroy, params: { id: gram.id }
 	    	expect(response).to redirect_to root_path
