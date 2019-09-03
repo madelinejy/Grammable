@@ -42,13 +42,7 @@ gem 'carrierwave', '~> 1.3.1'
 
 gem 'fog-aws'
 
-gem 'mini_magick'
-
-gem 'carrierwave-aws', '~> 1.0.2'
-
 gem 'figaro'
-
-
 
 
 # Reduces boot times through caching; required in config/boot.rb
